@@ -1,6 +1,6 @@
 #include <stdio.h>
 void hello(int i){ //recursive function
-  if(i == 0){
+  if(i == 0){ //base case
     return;
   }
   printf("%d\n", i);

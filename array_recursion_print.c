@@ -1,6 +1,6 @@
 #include <stdio.h>
 void print_array(int a[], int n, int i){
-  if(i == n){
+  if(i == n){  // base case
     return;
   }
   printf("%d ", a[i]);
